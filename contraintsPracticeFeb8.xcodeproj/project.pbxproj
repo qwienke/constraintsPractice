@@ -13,6 +13,7 @@
 		E4251D5E2993EEBB003D2578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4251D5C2993EEBB003D2578 /* Main.storyboard */; };
 		E4251D602993EEBD003D2578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4251D5F2993EEBD003D2578 /* Assets.xcassets */; };
 		E4251D632993EEBD003D2578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4251D612993EEBD003D2578 /* LaunchScreen.storyboard */; };
+		E4251D6D2993EF55003D2578 /* ConversationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4251D6C2993EF55003D2578 /* ConversationData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E4251D5F2993EEBD003D2578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4251D622993EEBD003D2578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4251D642993EEBD003D2578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4251D6C2993EF55003D2578 /* ConversationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationData.swift; path = ../../../../Downloads/ConversationData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E4251D552993EEBB003D2578 /* contraintsPracticeFeb8 */ = {
 			isa = PBXGroup;
 			children = (
+				E4251D6C2993EF55003D2578 /* ConversationData.swift */,
 				E4251D562993EEBB003D2578 /* AppDelegate.swift */,
 				E4251D582993EEBB003D2578 /* SceneDelegate.swift */,
 				E4251D5A2993EEBB003D2578 /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				E4251D5B2993EEBB003D2578 /* ViewController.swift in Sources */,
 				E4251D572993EEBB003D2578 /* AppDelegate.swift in Sources */,
+				E4251D6D2993EF55003D2578 /* ConversationData.swift in Sources */,
 				E4251D592993EEBB003D2578 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
